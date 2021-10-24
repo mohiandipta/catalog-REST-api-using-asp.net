@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using catalog.Entities;
 using catalog.Repositories;
@@ -22,6 +23,20 @@ namespace Catalog.Controllers
         {
             var items = repository.GetItems();
             return items;
+        }
+
+        // GET/item/id (by id)
+        [HttpGet("{id}")]
+        public ActionResult<Item> GetItem(Guid id)
+        {
+            var item = repository.GetItem(id);
+
+            if (item == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(item);
         }
     }
 }
