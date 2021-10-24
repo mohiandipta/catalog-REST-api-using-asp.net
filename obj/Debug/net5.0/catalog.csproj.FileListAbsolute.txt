@@ -35,3 +35,6 @@ C:\Mohian\Project\.Net\catalog\obj\Debug\net5.0\catalog.dll
 C:\Mohian\Project\.Net\catalog\obj\Debug\net5.0\ref\catalog.dll
 C:\Mohian\Project\.Net\catalog\obj\Debug\net5.0\catalog.pdb
 C:\Mohian\Project\.Net\catalog\obj\Debug\net5.0\catalog.genruntimeconfig.cache
+C:\Mohian\Project\.Net\catalog\bin\Debug\net5.0\view\package-lock.json
+C:\Mohian\Project\.Net\catalog\bin\Debug\net5.0\view\package.json
+C:\Mohian\Project\.Net\catalog\bin\Debug\net5.0\view\public\manifest.json
