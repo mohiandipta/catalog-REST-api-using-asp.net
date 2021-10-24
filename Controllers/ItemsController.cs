@@ -16,7 +16,7 @@ namespace Catalog.Controllers
             repository = new InMemItemsRepository();
         }
 
-        // GET/item
+        // GET/item (All)
         [HttpGet]
         public IEnumerable<Item> GetItems()
         {
